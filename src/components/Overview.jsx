@@ -34,8 +34,8 @@ const socialLinks = [
 const personalFacts = [
   { name: 'Health optimizer', sub: 'same healthy breakfast, three years straight' },
   { name: 'Eudaimonia', sub: 'कर्मण्येवाधिकारस्ते मा फलेषु कदाचन — Gita 2.47' },
-  { name: 'Professional Athlete', sub: 'double-digit titles and counting' },
-  { name: 'Backcountry trekker', sub: 'Grand Canyon Rim-to-Rim — finished in shhh… hours' },
+  { name: 'Professional Athlete', sub: 'double digit titles and counting' },
+  { name: 'Backcountry trekker', sub: 'Trekked Grand Canyon Rim-to-Rim' },
 ]
 
 // Professional highlights shown in the Professional column
@@ -43,7 +43,7 @@ const professionalFacts = [
   { name: 'Senior Analyst @ Carvana', sub: 'intern → senior in two years · prev @ Tesla, Tata, Volvo' },
   { name: 'Efficiency engine', sub: '$3M+ in costs saved and counting' },
   { name: 'End-to-end owner', sub: 'collaborating wide, driving hard' },
-  { name: 'Analysis & forecasting at scale', sub: 'drove business strategy — built production-grade models & pipelines' },
+  { name: 'Analytics & forecasting at scale', sub: 'drove business strategy · built production-grade models & pipelines' },
 ]
 
 // ─── Overview page ────────────────────────────────────────────────────────────
