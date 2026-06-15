@@ -24,8 +24,9 @@ export default {
     }
 
     try {
-      const { pin } = await request.json()
-      const success = pin === env.PIN.trim()
+      const { pin, tab } = await request.json()
+      const secret = tab === 'personal' ? env.PIN_PERSONAL : env.PIN_PROFESSIONAL
+      const success = !!secret && pin === secret.trim()
       return new Response(JSON.stringify({ success }), {
         headers: { ...corsHeaders, 'Content-Type': 'application/json' },
       })
