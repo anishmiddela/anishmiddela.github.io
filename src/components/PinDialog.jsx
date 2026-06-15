@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Lock, Delete } from 'lucide-react'
 
-const WORKER_URL = import.meta.env.VITE_PIN_WORKER_URL
+const WORKER_URL = 'https://api.anishmiddela.com'
 
 export default function PinDialog({ tab, onSuccess, onCancel }) {
   const [entered, setEntered] = useState('')

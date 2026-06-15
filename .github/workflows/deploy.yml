@@ -35,7 +35,6 @@ jobs:
       - run: npm run build
         env:
           VITE_GC_TOKEN: ${{ secrets.VITE_GC_TOKEN }}
-          VITE_PIN_WORKER_URL: ${{ secrets.VITE_PIN_WORKER_URL }}
 
       - uses: actions/configure-pages@v4
 
