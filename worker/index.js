@@ -25,7 +25,7 @@ export default {
 
     try {
       const { pin } = await request.json()
-      const success = pin === env.PIN
+      const success = pin === env.PIN.trim()
       return new Response(JSON.stringify({ success }), {
         headers: { ...corsHeaders, 'Content-Type': 'application/json' },
       })
