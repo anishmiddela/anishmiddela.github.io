@@ -31,7 +31,10 @@ jobs:
 
       - run: npm ci
 
+      # VITE_GC_TOKEN is stored as a GitHub secret — go to repo Settings → Secrets → Actions to add it
       - run: npm run build
+        env:
+          VITE_GC_TOKEN: ${{ secrets.VITE_GC_TOKEN }}
 
       - uses: actions/configure-pages@v4
 
