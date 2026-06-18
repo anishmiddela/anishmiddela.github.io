@@ -40,7 +40,7 @@ const personalFacts = [
 
 // Professional highlights shown in the Professional column
 const professionalFacts = [
-  { name: 'Senior Analyst @ Carvana', sub: 'intern → senior in two years · prev @ Tesla, Tata, Volvo' },
+  { name: 'Senior Analyst @ Carvana', sub: 'prev @ Tesla, Tata, Volvo' },
   { name: 'Efficiency engine', sub: '$3M+ in costs saved and counting' },
   { name: 'End-to-end owner', sub: 'collaborating wide, driving hard' },
   { name: 'Analytics & forecasting at scale', sub: 'drove business strategy · built production-grade models & pipelines' },
