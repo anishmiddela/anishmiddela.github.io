@@ -38,11 +38,6 @@ export default function Personal() {
   return (
     <div className="page-fade">
 
-      {/* ── In Progress banner ── */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 bg-[#ff5a36] px-4 py-2.5 text-center text-xs font-semibold text-white tracking-wide">
-        This page is a work in progress — come back soon.
-      </div>
-
       {/* ── Hero + intro text ── */}
       <section className="mx-auto max-w-2xl px-6 pt-44 pb-20 md:pt-52">
         <Reveal>

@@ -58,7 +58,14 @@ export default function PinDialog({ tab, onSuccess, onCancel }) {
         <Lock className="mx-auto mb-4 text-[#16181d]" size={22} />
 
         <div className="text-xl font-bold capitalize tracking-tight text-[#16181d]">{tab}</div>
-        <p className="mt-1 mb-8 text-sm text-[#7a838f]">Enter your 3-digit code to continue</p>
+        <p className="mt-1 text-sm text-[#7a838f]">Enter your 3-digit code to continue</p>
+        {(tab === 'personal' || tab === 'professional') && (
+          <p className="mt-3 mb-6 inline-flex items-center gap-1.5 rounded-full bg-[#fff3f0] px-3 py-1 text-xs font-semibold text-[#ff5a36]">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#ff5a36] animate-pulse" />
+            Work in progress
+          </p>
+        )}
+        {tab !== 'personal' && tab !== 'professional' && <div className="mb-8" />}
 
         <div className="mb-6 flex justify-center gap-4">
           {[0, 1, 2].map((i) => (
