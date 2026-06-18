@@ -150,8 +150,6 @@ export default function Overview({ goTo }) {
               <span className="text-[#ff5a36]">Visionary</span>
               <span className="mx-2 text-[#b3bac2]">·</span>
               <span className="text-[#87211C]">Learns fast, adapts faster</span>
-              <span className="mx-2 text-[#b3bac2]">·</span>
-              <span className="text-[#0070f3]">AI-first mindset</span>
             </p>
             <p className="mt-2 text-center text-xs text-[#7a838f]">
               from building my own complete personal health app to promptly driving business decisions
